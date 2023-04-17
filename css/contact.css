@@ -1,0 +1,87 @@
+/*------------------------------------------------------------------------------contact section--------------------------------------------------------------------*/
+#contact {
+  padding: 80px 0 80px;
+  min-height: 100vh;
+}
+
+#contact .contact-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 15px;
+  display: flex;
+}
+
+#contact .contact-item-inner {
+  padding: 30px 15px;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#contact .contact-item-inner i {
+  font-size: 25px;
+  color: var(--skin-color);
+}
+
+#contact .contact-item-inner span {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-black-700);
+  margin: 15px 0 10px;
+  text-transform: capitalize;
+}
+
+#contact .contact-item-inner p {
+  font-size: 1rem;
+  color: var(--text-black-600);
+  line-height: 26px;
+  margin: 0;
+}
+
+#contact .contact-form {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 50px;
+}
+
+#contact .w-50 {
+  padding: 0 15px;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+#contact .input-group {
+  margin: 0 0 25px;
+  transition: all 0.3s ease;
+  border-radius: 30px;
+}
+
+#contact .input-group::after {
+  border-radius: 30px;
+}
+
+#contact .input-group .input-control {
+  height: 45px;
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 0 15px;
+  color: var(--text-black-700);
+}
+
+#contact .input-group textarea.input-control {
+  height: 184px;
+  padding: 15px;
+  resize: none;
+}
+
+#contact .submit-btn {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: right;
+  padding: 0 15px;
+}

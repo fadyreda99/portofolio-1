@@ -1,0 +1,40 @@
+/*---------------------------------------------------------------------------header-----------------------------------------------------------------------------*/
+#header {
+  padding: 20px 15px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#header .logo a {
+  display: inline-block;
+  text-align: center;
+  line-height: 31px;
+  height: 40px;
+  width: 40px;
+  font-size: 1.5rem;
+  color: var(--skin-color);
+  border-radius: 50%;
+  border: 2px solid var(--skin-color);
+}
+
+#header .hamburger-btn {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+#header .hamburger-btn::after {
+  border-radius: 50%;
+}
+
+#header .hamburger-btn span i {
+  font-size: 1.3rem;
+}

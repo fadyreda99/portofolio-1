@@ -1,0 +1,94 @@
+/*------------------------------------------------------------------------------testimonials section--------------------------------------------------------------------*/
+#testimoial {
+  padding: 80px 0 80px;
+  min-height: 100vh;
+}
+
+#testimoial .testi-box {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+#testimoial .testi-slider {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#testimoial .testi-slider-container {
+  display: flex;
+  transition: all 1s ease;
+  align-items: center;
+}
+
+#testimoial .testi-item {
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+#testimoial .testi-item i {
+  position: absolute;
+  font-size: 30px;
+  color: var(--text-black-600);
+  opacity: 0.1;
+}
+
+#testimoial .testi-item i.left {
+  left: 5px;
+  top: 5px;
+}
+
+#testimoial .testi-item i.right {
+  right: 5px;
+  bottom: 5px;
+}
+
+#testimoial .testi-item p {
+  font-size: 1rem;
+  line-height: 26px;
+  color: var(--text-black-600);
+  margin: 0 0 30px;
+}
+
+#testimoial .testi-item img {
+  max-width: 70px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#testimoial .testi-item span {
+  display: block;
+  margin: 10px 0 0;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-black-700);
+  text-transform: capitalize;
+}
+
+#testimoial .testi-slider-nav {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#testimoial .testi-slider-nav span {
+  height: 40px;
+  width: 40px;
+  color: var(--skin-color);
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+#testimoial .testi-slider-nav span::after {
+  border-radius: 50%;
+}
+
+#testimoial .testi-slider-nav span i {
+  line-height: 40px;
+}
